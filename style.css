@@ -35,14 +35,20 @@ a:hover {
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
 }
 section.normal{
     background-color: white;
     color: black;
 }
 section.image{
-    background: grey;
+    background: #252525;
     color: white;
+}
+section.image > p {
+    width: 400px;
+    background-color: #00000041;
 }
 
 footer{
