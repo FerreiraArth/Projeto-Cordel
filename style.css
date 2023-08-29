@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    min-height: 100vh;
+    background: darkgray;
+}
+
+header {
+    background: black;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+header > h1 {
+    /* padding-top: 50px; */
+    /* text-transform: uppercase; */
+    font-variant: small-caps;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+section.normal{
+    background-color: white;
+    color: black;
+}
+section.image{
+    background: grey;
+    color: white;
+}
+
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
